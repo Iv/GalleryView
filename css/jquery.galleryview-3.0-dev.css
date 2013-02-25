@@ -11,7 +11,7 @@
 /* IMPORTANT - Change '#myGallery' to the ID of your gallery list to prevent a flash of unstyled content */
 #myGallery { display: none; }
 
-.gv_galleryWrap { position: relative; background: #222; font-size: 10pt; }
+.gv_galleryWrap { position: relative; background: #F1F1F1; font-size: 10pt; }
 
 /* GALLERY DIV */
 .gv_gallery { overflow: hidden; position: relative;}
@@ -32,12 +32,12 @@
 .gv_panel { filter: inherit; position: absolute; top: 0; left: 0; overflow: hidden; z-index: 100; }
 .gv_panel img { position: absolute; }
 
-.gv_overlay { position: absolute; background: #222; color: white; z-index: 200; }
+.gv_overlay { position: absolute; background: #F1F1F1; color: black; z-index: 200; }
 .gv_showOverlay { 
 	position: absolute; 
 	width: 20px; 
 	height: 20px; 
-	background: url(themes/light/info.png) #222; 
+	background: url(themes/light/info.png) #222;
 	cursor: pointer;
 	z-index: 200;
 }
@@ -45,13 +45,13 @@
 .gv_overlay p { color: white; margin: 1em; }
 
 .gv_infobar {
-	background: #222;
+	background: #F1F1F1;
 	padding: 0 0.5em;
 	line-height: 1.5em;
 	height: 1.5em;
 	font-size: 10pt;
 	font-weight: bold;
-	color: white;
+	color: black;
 	
 	position: absolute;
 	bottom: 0;
@@ -92,7 +92,7 @@
 .gv_frame img { border: none; position: absolute; }
 
 /* FRAME CAPTION */
-.gv_frame .gv_caption { height: 14px; line-height: 14px; font-size: 10px; text-align: center; color:white; }
+.gv_frame .gv_caption { height: 14px; line-height: 14px; font-size: 10px; text-align: center; color:#000000; }
 
 /* CURRENT FRAME CAPTION */
 .gv_frame.current .gv_caption { }
@@ -155,35 +155,35 @@
 	height: 30px;
 	width: 30px;
 	cursor: pointer;
-	background: url(themes/light/play-big.png) top left no-repeat;
+	background: url(themes/dark/play-big.png) top left no-repeat;
 }
 .gv_navPause {
 	height: 30px;
 	width: 30px;
 	cursor: pointer;
-	background: url(themes/light/pause-big.png) top left no-repeat;
+	background: url(themes/dark/pause-big.png) top left no-repeat;
 }
 .gv_navNext {
 	height: 20px;
 	width: 20px;
 	cursor: pointer;
-	background: url(themes/light/next.png) top left no-repeat;
+	background: url(themes/dark/next.png) top left no-repeat;
 }
 .gv_navPrev {
 	height: 20px;
 	width: 20px;
 	cursor: pointer;
-	background: url(themes/light/prev.png) top right no-repeat;
+	background: url(themes/dark/prev.png) top right no-repeat;
 }
 .gv_panelNavNext {
 	height: 20px;
 	width: 20px;
 	cursor: pointer;
-	background: url(themes/light/panel-next.png) top left no-repeat;
+	background: url(themes/dark/panel-next.png) top left no-repeat;
 }
 .gv_panelNavPrev {
 	height: 20px;
 	width: 20px;
 	cursor: pointer;
-	background: url(themes/light/panel-prev.png) top right no-repeat;
+	background: url(themes/dark/panel-prev.png) top right no-repeat;
 }
